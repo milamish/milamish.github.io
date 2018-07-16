@@ -35,6 +35,16 @@ body{
 	font-size: 17px;
 	text-decoration-color: cornsilk;
 }
+
+#btn4{
+  width:40%;
+  height:50px;
+  font-family:sans-serif; 
+  font-style:normal;
+  color:wheat;
+  font-size: 17px;
+  text-decoration-color: cornsilk;
+}
 #btn3{
 	width:100px;
 	height:20px;
@@ -93,6 +103,7 @@ div.span1 {
 }
 a{
 	color:chocolate;
+  font-size:20px;
 }
 
 .sidenav a {
@@ -123,7 +134,7 @@ a.login{
 }
 /*styling class clear fix, that contains the submit buttons*/
 div.clearfix{
-    width: 50%;
+    width: 70%;
     background-color:sienna;
     color: white;
     padding: 14px 20px;
@@ -310,12 +321,6 @@ control-label{
   text-shadow: 5px 7px black; 
   margin-top: 50px;
  }
-
- .btn4 a{
-  font-size: 20px;
-  padding-top: 20px;
-  padding-bottom: 20px;
-  background-color: #000;
-  color: #ffffff;
-
+ #str{
+  margin-right:300px;
  }
