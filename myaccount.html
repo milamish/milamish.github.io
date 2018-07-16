@@ -2,7 +2,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link rel="stylesheet" type="text/css" href="styles.css">
 <head>
-	<h4 class="title"><span class="text"><h1><strong>my diary</strong></h1></span></h4>
+	<h4 class="title"><span class="tops"><h1><strong>my diary</strong></h1></span></h4>
 	<div class='topnav-right'>
 		<a href="index.html">home</a>
 		<a href="index.html">logout</a>
@@ -34,25 +34,27 @@
 					<div class='hobies' Id='hobies'>
 						<label class ='control-label'>new hobby</label>
 						<div class ='controls'>
-					<input type='text' name='hobbies'></br>
+					<input type='text' id="miles" name='hobbies'></br>
 				</div>
 			</div>
 			<div class='achievements' Id='achievements'>
 				<label class ='control-label'>new achievement</label>
 				<div class ='controls'>
-					<input type='text' name='achievements'></br>
+					<input type='text' id="miles" name='achievements'></br>
 				</div>
 			</div>
 			<div class='tasks' Id='tasks'>
 				<label class ='control-label'>new task assigned</label>
 				<div class ='controls'>
-					<input type='text' name='tasks'></br>
+					<input type='text' id="miles" name='tasks'></br>
 				</div>
 			</div>
 			<br><br>
-			<input type="submit" value="update your milestones" class="signupbtn">
+			<input type="submit" value="update your milestones" class="signupbtn" id="str">
+			<br>
+			<br><input type="submit" value="view your milestones" class="signupbtn" id="str">
 		</form>
-		<br><input type="submit" value="view your milestones" class="signupbtn">
+		
 		</div>
 		</div>
 
@@ -67,10 +69,10 @@
 			</div>
 			<br><br>
 			<input type="submit" value="store important links" class="signupbtn" id="str">
-		</form>
 			<br><br>
-			<input type="submit" value="view your important links" class="signupbtn" id="vw" tabindex="40">
-		</div>
+			<input type="submit" value="view your important links" class="signupbtn" id="str" tabindex="40">
+		</form>
 	</div>
+</div>
 </body>
 </html>

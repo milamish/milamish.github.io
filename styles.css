@@ -18,7 +18,7 @@ body{
 	height:600px;
 	background-size: cover;
 	background-color: tan;
-	*box-sizing: border-box;
+	box-sizing: border-box;
 	margin-left:auto;
 	margin-right:auto;
 	overflow-x: hidden;
@@ -102,8 +102,8 @@ div.span1 {
     padding-top: 20px;
 }
 a{
-	color:chocolate;
-  font-size:20px;
+	color:wheat;
+  font-size:15px;
 }
 
 .sidenav a {
@@ -116,7 +116,7 @@ a{
 a:link{
 	background-color:transparent;
 	padding:10px 20px;
-	color:chocolate;
+	color:wheat;
 	text-align:inline;
 }
 a.login{
@@ -134,8 +134,8 @@ a.login{
 }
 /*styling class clear fix, that contains the submit buttons*/
 div.clearfix{
-    width: 70%;
-    background-color:sienna;
+    width: 60%;
+    background-color:#675a4e;
     color: white;
     padding: 14px 20px;
     margin: 8px 0;
@@ -145,7 +145,7 @@ div.clearfix{
 }
 /*styling class clear fix, that contains the submit buttons*/
 div.clearfix:hover{
-	background-color: cornsilk;
+	background-color:#675a4e;
 }
 .signupbtn:hover{
 	background-color: sienna;
@@ -172,7 +172,7 @@ h5{
  	height:400px;
  	box-sizing: content-box; 
  }
-#profile {background-color:wheat;}
+#profile {background-color:#675a4e;}
 ul {
   margin: 0;
   padding: 0;
@@ -218,10 +218,11 @@ ul li:hover {
 input{
 	width: 60%;
 	padding: 12px;
-    border: 1px solid wheat;
-    border-radius: 4px;
-    resize: vertical;
-    background-color: transparent;
+  border: 1px solid wheat;
+  border-radius: 4px;
+  resize: vertical;
+  background-color:#675a4e;
+  color: wheat;
 }
 
 
@@ -256,6 +257,8 @@ control-label{
 .notes{
 	text-decoration-color: rgb(black);
 	float:left;
+  background-color: #675a4e;
+  color:wheat;
 }
 .vnotes{
 	float:right;
@@ -285,7 +288,7 @@ control-label{
 	float:left;
 	width:30%;
 	padding:10px;
-	
+	box-shadow: 0 0 7px 0px black;
 	box-sizing: border-box;
 	flex:30%;
 	columns: auto;
@@ -293,7 +296,7 @@ control-label{
 #links{
 	background-color:transparent;
 	font-size: 20px;
-	color:wheat;
+	color:black;
 	font-style:normal;
 }
 #notes{
@@ -323,4 +326,30 @@ control-label{
  }
  #str{
   margin-right:300px;
+  background-color:#675a4e;
+ }
+ #female{
+  width:20px;
+ }
+ #male{
+  width:20px;
+ }
+ #other{
+  width:20px;
+ }
+ #miles{
+  background-color:#675a4e;
+ }
+ textarea{
+  background-color: #675a4e;
+  color:wheat;
+ }
+ #tops{
+  text-align:left;
+  font-size: 12px;
+  color:wheat;
+  font-family:sans-serif;
+  font-style: oblique;
+  text-shadow: 5px 7px black; 
+  margin-top: 10px;
  }
