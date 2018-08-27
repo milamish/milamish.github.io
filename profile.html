@@ -1,0 +1,23 @@
+<!Doctype html>
+<link rel="stylesheet" type="text/css" href="style.css">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<body>
+	<div class="top-left">
+		<a href="index.html" id="home">home</a>
+	</div>
+	<div class="profile" id="prof">
+		<input type="submit" value="view questions" class="signupbtn" id='btn1' onclick="window.location.href='#'" ><br><hr>
+		<input type="submit" value="view answered questions" class="signupbtn" id='btn1'  onclick="window.location.href='#'"><br><hr>
+		<textarea cols="47" rows="auto" id="textarea" placeholder="type your question here"></textarea>
+		<input type="submit" value="post your question" class="signupbtn" id='btn1'  onclick="myFunction()"><br><hr>
+		<p id="question"></p>
+	</div>
+</body>
+<script>
+function myFunction() {
+    var x = document.getElementById("textarea").value;
+    document.getElementById("question").innerHTML = x;
+}
+</script>
+
+</html>
