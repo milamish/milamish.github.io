@@ -21,13 +21,14 @@ body{
  }
  #btn1{
     margin:auto;
-    width:100%
+    width:150%
     height:50px;
     font-family:sans-serif; 
     font-style:normal;
     color:Azure;
-    font-size: 17px;
+    font-size: 1.5vw;
     text-decoration-color: cornsilk;
+    text-overflow:wrap;
 }
 #btn2{
     width:60%;
@@ -35,17 +36,17 @@ body{
     font-family:sans-serif; 
     font-style:normal;
     color:Azure;
-    font-size: 19px;
+    font-size: 1.5vw;
     text-decoration-color:Azure;
     margin-left: 60px;
 }
 #qbtn{
-    width:40%;
+    width:60%;
     height:30px;
     font-family:sans-serif; 
     font-style:normal;
     color:Azure;
-    font-size: 15px;
+    font-size: 1.5vw;
     text-decoration-color:Azure;
     margin-left: 0px;
 }
@@ -67,7 +68,7 @@ input{
 
  #title{
     margin-left: 30px;
-    font-size: 30px;
+    font-size: 3vw;
 
  }
  .centred{
@@ -75,14 +76,14 @@ input{
     top: 8%;
     left: 50%;
     transform: translate(-50%, -50%);
-    font-size: 40px;
+    font-size: 3vw;
     color:DimGrey;
     font-family: Trebuchet-Ms;
     font-style: oblique;
     text-shadow: 3px 1px Azure; 
     }
 #heading{
-    font-size: 50px;
+    font-size: 5vw;
     color:MidnightBlue;
     font-family: Trebuchet-Ms;
     font-style:normal;
@@ -120,6 +121,9 @@ input{
 a{
     color:DimGrey;
 }
+h3{
+    margin-top: 2px;
+}
 .or{
     position:absolute;
 }
@@ -134,7 +138,7 @@ a{
     margin-top: 150px;
 }
 #textarea{
-    /*width:200px;*/
+    width:80%;
 }
 .allquestions{
     background-color:Gainsboro;
