@@ -125,7 +125,7 @@ input{
 }
 a{
     color:DimGrey;
-     font-size: 1vw;
+     font-size: 1.2vw;
 }
 h3{
     margin-top: 2px;
@@ -165,4 +165,8 @@ h3{
     resize: vertical;
     background-color:white;
     margin-left:30px;
+    font-size: 2vw;
+}
+#quest{
+    font-size: 1.5vw;
 }
