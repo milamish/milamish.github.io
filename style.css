@@ -39,6 +39,16 @@ body{
     text-decoration-color:Azure;
     margin-left: 60px;
 }
+#qbtn{
+    width:40%;
+    height:30px;
+    font-family:sans-serif; 
+    font-style:normal;
+    color:Azure;
+    font-size: 15px;
+    text-decoration-color:Azure;
+    margin-left: 0px;
+}
 input{
     margin:auto;
     width:70%;
