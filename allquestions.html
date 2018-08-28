@@ -2,5 +2,54 @@
 <link rel="stylesheet" type="text/css" href="style.css">
 <link rel="javascript" type="javascript" href="js.js">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<boby></boby>
+<body>
+	<div class="top-right">
+		<a href="index.html">home</a>
+		<a href="questions.html">back</a>
+	</div>
+	<div class='intro'>
+			<div class="centred" id="int" >"search questions"</div> <br><br>
+			<div class="centred" id="post">"answer question"</div><br><br>
+			<div class="centred" id="answer">"build knowledge base"</div>
+	</div>
+	<div class="allquestions">
+		<h3>Answer a question from the list below</h3>
+		<input type="text" id="myquery" onkeyup="myFunction()" placeholder="Search for questions" title="questions">
+		<ul id="qlist">
+			<li><a href="" onclick="myAnswer()">are you good with CSS?</a></li>
+			<li><a href="" onclick="myAnswer()">  are you good with HTMl?</a></li>
+	  		<li><a href="#" onclick="myAnswer()">What of Javascript?</a></li>
+	  		<li><a href="#" onclick="myAnswer()">Who else understands anatomy?</a></li>
+	  		<li><a href="#" onclick="myAnswer()">Are there alliens in Kenya?</a></li>
+		</ul>
+		<p id="ans"><p>
+	</div>
+</body>
+<script>
+function myAnswer() {
+    var answer = prompt("Please enter your answer here", "#");
+    if (answer != null) {
+        document.getElementById("ans").innerHTML =
+        "My answer " + answer + "! you can add more content.";
+    }
+}
+</script>
+
+<script>
+function myFunction() {
+    var input, filter, ul, li, a, i;
+    input = document.getElementById("myquery");
+    filter = input.value.toUpperCase();
+    ul = document.getElementById("qlist");
+    li = ul.getElementsByTagName("li");
+    for (i = 0; i < li.length; i++) {
+        a = li[i].getElementsByTagName("a")[0];
+        if (a.innerHTML.toUpperCase().indexOf(filter) > -1) {
+            li[i].style.display = "";
+        } else {
+            li[i].style.display = "none";
+        }
+    }
+}
+</script>
 </html>

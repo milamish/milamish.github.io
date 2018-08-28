@@ -70,8 +70,8 @@ input{
 
  }
  .centred{
-     position: absolute;
-    top: 10%;
+    position: absolute;
+    top: 8%;
     left: 50%;
     transform: translate(-50%, -50%);
     font-size: 40px;
@@ -81,6 +81,15 @@ input{
     text-shadow: 3px 1px Azure; 
     
     }
+#heading{
+    font-size: 50px;
+    color:MidnightBlue;
+    font-family: Trebuchet-Ms;
+    font-style:normal;
+    text-shadow: 3px 1px Azure; 
+    
+
+}
 #post{
      position: absolute;
     top: 15%;
@@ -89,15 +98,24 @@ input{
 
 }
 #answer{
-     position: absolute;
+    position: absolute;
     top: 20%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
-.top-left {
+#stck{
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+.top-right {
+    margin-top: 30px;
+    margin-right: 50px;
     position: absolute;
     top: 8px;
-    left: 16px;
+    right: 16px;
 }
 a{
     color:DimGrey;
@@ -118,72 +136,23 @@ a{
 #textarea{
     /*width:200px;*/
 }
-/* The Modal (background) */
-.modal {
-    display: none; /* Hidden by default */
-    position: fixed; /* Stay in place */
-    z-index: 1; /* Sit on top */
-    padding-top: 100px; /* Location of the box */
-    left: 0;
-    top: 0;
-    width: 100%; /* Full width */
-    height: 100%; /* Full height */
-    overflow: auto; /* Enable scroll if needed */
-    background-color: rgb(0,0,0); /* Fallback color */
-    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+.allquestions{
+    background-color:Gainsboro;
+    padding: 100px;    
+    margin:auto;
+    width:30%;
+    margin-top: 70px;
 }
-
-/* Modal Content */
-.modal-content {
-    position: relative;
-    background-color: #fefefe;
-    margin: auto;
-    padding: 0;
-    border: 1px solid #888;
-    width: 80%;
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
-    -webkit-animation-name: animatetop;
-    -webkit-animation-duration: 0.4s;
-    animation-name: animatetop;
-    animation-duration: 0.4s
+#allquestions{
+    font-size: 15px;
 }
-
-/* Add Animation */
-@-webkit-keyframes animatetop {
-    from {top:-300px; opacity:0} 
-    to {top:0; opacity:1}
-}
-
-@keyframes animatetop {
-    from {top:-300px; opacity:0}
-    to {top:0; opacity:1}
-}
-
-/* The Close Button */
-.close {
-    color: white;
-    float: right;
-    font-size: 28px;
-    font-weight: bold;
-}
-
-.close:hover,
-.close:focus {
-    color: #000;
-    text-decoration: none;
-    cursor: pointer;
-}
-
-.modal-header {
-    padding: 2px 16px;
-    background-color: #5cb85c;
-    color: white;
-}
-
-.modal-body {padding: 2px 16px;}
-
-.modal-footer {
-    padding: 2px 16px;
-    background-color: #5cb85c;
-    color: white;
+#myquery{
+    margin:auto;
+    width:70%;
+    padding: 12px;
+    border: 1px solid wheat;
+    border-radius: 4px;
+    resize: vertical;
+    background-color:white;
+    margin-left:30px;
 }
