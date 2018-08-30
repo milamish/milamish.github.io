@@ -4,7 +4,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <body>
 	<div class="top-right">
-		<a href="index.html">home</a>
+		<a href="profile.html">home</a>
 		<a href="questions.html">back</a>
 	</div>
 	<div class='intro'>
@@ -14,7 +14,7 @@
 	</div>
 	<div class="allquestions">
 		<h3>Answer a question from the list below</h3>
-		<input type="text" id="myquery" onkeyup="myFunction()" placeholder="Search for questions" title="questions">
+		<input type="text" id="myquery" onkeyup="myQueries()" placeholder="Search for questions" title="questions">
 		<ul id="qlist">
 			<li><a href="#" id="quest" onclick="myAnswer()">are you good with CSS?</a></li>
 			<li><a href="#" id="quest" onclick="myAnswer()">  are you good with HTMl?</a></li>
@@ -36,7 +36,7 @@ function myAnswer() {
 </script>
 
 <script>
-function myFunction() {
+function myQueries() {
     var input, filter, ul, li, a, i;
     input = document.getElementById("myquery");
     filter = input.value.toUpperCase();
