@@ -241,5 +241,19 @@ hr{
     color:MidnightBlue;
 }
 #myquestion{
+    display:inline;
     float:left;
+    padding-left: 5px;
+}
+p{
+    display:inline;
+    color: black;
+}
+#qs1
+{
+    margin-left: 10px;
+}
+#qs2
+{
+    margin-left: 19px;
 }
